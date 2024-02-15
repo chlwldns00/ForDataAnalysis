@@ -5,10 +5,10 @@
 1.크롤링에 활용되는 라이브러리 학습  
 2.웹 서버에서 어떻게 웹문서를 주고받는지 (HTTP Requests)  
 - HTML/CSS 웹문서 크롤링  
-1.find와 select 의 활용
+1.find와 select 의 활용  
 -엑셀파일자동화  
 1.크롤링데이터를 엑셀파일 생성, 데이터 저장, 파일 save
-2.openpyxl라이브러리 학습  
+2.openpyxl라이브러리 학습    
 - openAPI의 데이터를 활용한 크롤링    
 1.openAPI 사용 셋팅 코드 + JSON데이터 활용 크롤링(네이버 openAPI활용 데이터 사용)  
 2.XML데이터 활용 크롤링(정부 공공데이터 openAPI 활용 데이터 사용)

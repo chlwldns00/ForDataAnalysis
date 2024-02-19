@@ -13,6 +13,7 @@
 1.openAPI 사용 셋팅 코드 + JSON데이터 활용 크롤링(네이버 openAPI활용 데이터 사용)  
 2.XML데이터 활용 크롤링(정부 공공데이터 openAPI 활용 데이터 사용)
 
+--------
 
 ## 2.데이터 저장(mysql, nosql)  
 ### MYSQL  

@@ -1,0 +1,39 @@
+USE sakila;
+desc actor;
+SHOW DATABASES;
+SHOW TABLES;
+
+#1번문제 영화 테이블(film) 에서 총 영화 수
+SELECT * FROM film;
+SELECT COUNT(*) FROM film;
+
+# 2번문제 영화 등급종류 추출 (rating)
+SELECT DISTINCT rating FROM film;
+
+#3번문제 영화 테이블(film) 에서 영화 release 연도 종류 알아내기, 각 영화의 release 연도는 release_year 컬럼에 있음
+SELECT DISTINCT release_year FROM film LIMIT 10;
+
+#4번 영화 렌탈 테이블(rental) 에서 10개 데이터만 출력하기, rental 테이블은 (DVD 를 언제, 누가 빌려갔고, 반환했는지에 대한 정보)
+SELECT * FROM rental;
+SELECT * FROM rental LIMIT 10;
+
+#5번 영화 렌탈 테이블(rental) 에서 inventory_id 가 367 인 로우(Row) 전체 출력하기
+SELECT * FROM rental WHERE inventory_id=367;
+
+#6번  customer 테이블에서 customer 수 알아내기
+SELECT COUNT(*) FROM customer;
+
+#7번 payment 테이블에서 렌탈비용 합계, 평균, 최대값, 최소값 구하기, payment 테이블은 렌탈 비용을 포함한 정보를 담고있는 테이블임
+SELECT * FROM payment; 
+SELECT SUM(amount) FROM payment; #합계;
+SELECT AVG(amount) FROM payment; #평균;
+SELECT MAX(amount) FROM payment; #최대값;
+SELECT MIN(amount) FROM payment; #최소값;
+
+#8번 영화 렌탈 테이블(rental) 에서 inventory_id 가 367 이고, staff_id가 1인 로우(Row) 전체 출력하기
+SELECT * FROM rental;
+SELECT * FROM rental WHERE inventory_id=367 AND staff_id=1;
+
+#10번  영화(film table)에 매겨진 등급(rating) 종류에 따른 영화 갯수를 모두 출력하시요 (rating 값과 각 rating 값에 따른 영화 갯수를 출력하세요
+SELECT * FROM film;
+SELECT COUNT(*) FROM 

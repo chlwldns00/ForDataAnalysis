@@ -34,6 +34,25 @@ SELECT MIN(amount) FROM payment; #최소값;
 SELECT * FROM rental;
 SELECT * FROM rental WHERE inventory_id=367 AND staff_id=1;
 
-#10번  영화(film table)에 매겨진 등급(rating) 종류에 따른 영화 갯수를 모두 출력하시요 (rating 값과 각 rating 값에 따른 영화 갯수를 출력하세요
+#10번  영화(film table)에 매겨진 등급(rating) 종류에 따른 영화 갯수를 모두 출력하시요 (rating 값과 각 rating 값에 따른 영화 갯수를 출력하세요(중요)
 SELECT * FROM film;
-SELECT COUNT(*) FROM 
+SELECT rating, SUM(rating) FROM film GROUP BY rating;
+
+#11번 영화(film table)에서 영화가 PG 또는 G 등급의 영화 수를 각 등급별로 출력하세요 (rating 값과 각 rating 값에 따른 영화 갯수를 출력하세요)
+SELECT * FROM film;
+SELECT rating, COUNT(*) FROM film WHERE rating='G' OR rating='PG' GROUP BY rating;
+
+#12번 영화(film table)에서 영화가 G 등급인 영화 제목을 출력하세요
+SELECT title FROM film WHERE rating='G';
+
+#13번 영화(film table)에서 영화가 PG 또는 G 등급인 영화 제목을 출력하세요
+SELECT title,rating FROM film WHERE rating='G' OR rating='PG';
+
+#14번 영화(film table)에서 release 연도가 2006 또는 2007 연도이고, 영화가 PG 또는 G 등급인 영화 제목을 출력하세요
+SELECT title,rating,release_year FROM film WHERE (release_year=2006 OR release_year=2007) AND (rating='G' OR rating='PG');
+
+#15,16번 film테이블에서 rating (등급)으로 그룹을 묶어서, 각 등급별 영화 갯수 출력하기 (각 등급별 갯수 출력하기)
+SELECT rating,COUNT(*) FROM film GROUP BY rating;
+
+#17번  film테이블에서 rating (등급)으로 그룹을 묶어서, 각 등급별 영화 갯수와 각 등급별 평균 렌탈 비용 출력하기 (등급과 각등급별 갯수, 각 등급별 평균 렌탈 비용 출력하기)
+SELECT rating,COUNT(*),AVG(rental_duration) FROM film GROUP BY rating

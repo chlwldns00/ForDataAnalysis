@@ -55,4 +55,10 @@ SELECT title,rating,release_year FROM film WHERE (release_year=2006 OR release_y
 SELECT rating,COUNT(*) FROM film GROUP BY rating;
 
 #17번  film테이블에서 rating (등급)으로 그룹을 묶어서, 각 등급별 영화 갯수와 각 등급별 평균 렌탈 비용 출력하기 (등급과 각등급별 갯수, 각 등급별 평균 렌탈 비용 출력하기)
-SELECT rating,COUNT(*),AVG(rental_duration) FROM film GROUP BY rating
+SELECT rating,COUNT(*),AVG(rental_duration) FROM film GROUP BY rating;
+
+#18번  film테이블에서 rating (등급)으로 그룹을 묶어서, 각 등급별 영화 갯수와 각 등급별 평균 렌탈 비용 출력하기, 단 평균 렌탈비용이 높은 순으로 출력하기 (등급과 각 등급별 갯수, 각 등급별 평균 렌탈 비용 출력하기)
+SELECT rating, COUNT(*), AVG(rental_duration) FROM film  GROUP BY rating ORDER BY AVG(rental_duration) DESC;
+
+#19,20번 film테이블에서 rating (등급)으로 그룹을 묶어서, 각 등급별 영화 갯수와 rating (등급), 각 그룹별 평균 rental_rate (렌탈 비용) 출력하되, 영화 갯수와 평균 렌탈 비용은 각각 total_films, avg_rental_rate 으로 출력하고, avg_rental_rate이 높은 순으로 출력하시오 (SQL 구문을 보기 좋게 여러 줄에 걸쳐서 써보기)
+ SELECT rating, COUNT(*) AS total_films, FLOOR(AVG(rental_rate)) AS avg_rental_rate FROM film GROUP BY rating ORDER BY FLOOR(AVG(rental_rate)) DESC

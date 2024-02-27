@@ -32,5 +32,6 @@
 1.pymysql 라이브러리로 mysql DB table연동  
 2.bs4라이브러리로 웹페이지 크롤링  
 3.크롤링한 데이터로 table채우기 및 검색연산      
-
+### NoSQL(MongoDB)
+Nosql데이터베이스 이해, 문법이해, aggregation문법 이해, pymongo, 
 

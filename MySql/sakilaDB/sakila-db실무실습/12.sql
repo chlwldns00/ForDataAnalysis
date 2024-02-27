@@ -1,14 +1,24 @@
-USE jiun;
-DROP TABLE IF EXISTS `items`;
+USE mydata;
+DROP TABLE IF EXISTS `post`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `product_info` (
-  `product_id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
-  ` varchar(200) NOT NULL,
-  `ori_price` int NOT NULL,
-  `dis_price` int NOT NULL,
-  `discount_percent` int NOT NULL,
-  `provider` varchar(100) DEFAULT NULL,
-  PRIMARY KEY (`item_code`)
+CREATE TABLE `post` (
+  `post_id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `headline` varchar(100) NOT NULL,
+  `reply_num` varchar(10) NOT NULL,
+  `post_provider` varchar(20) NOT NULL,
+  `view_num`  tinyint UNSIGNED NOT NULL,
+  PRIMARY KEY (`post_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+CREATE TABLE `reply` (
+  `post_id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `headline` varchar(100) NOT NULL,
+  `reply_num` varchar(10) NOT NULL,
+  `post_provider` varchar(20) NOT NULL,
+  `view_num`  tinyint UNSIGNED NOT NULL,
+  PRIMARY KEY (`post_id`)
+)
+SELECT * FROM post;
+SELECT * FROM reply;

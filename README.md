@@ -33,5 +33,10 @@
 2.bs4라이브러리로 웹페이지 크롤링  
 3.크롤링한 데이터로 table채우기 및 검색연산      
 ### NoSQL(MongoDB)
-Nosql데이터베이스 이해, 문법이해, aggregation문법 이해, pymongo, 
+Nosql데이터베이스 이해, 문법이해, aggregation문법 이해, pymongo,   
+- MongoDB 데이터베이스 구조 이해  
+  1.how to install  
+  2.클라우드(aws,google,ncp등)에서 돌리는 방법(linux ubuntu사용)  
+- MongoDB CRUD 문법  
+  1.실제 mongoDB 생성후 실습  
 

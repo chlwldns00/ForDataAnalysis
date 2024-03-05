@@ -1,4 +1,4 @@
-//mongodb collection생성
+
 db.createCollection('users',{ capped : true, max : 5000 }) //capped 같은 옵션을 붙일수있다.
 db.users.insertMany( 
    [
@@ -9,8 +9,6 @@ db.users.insertMany(
 	{ name:"Brown", age:8 }
    ]
 ) ;
-//Read 예제
-
 //4.2-1 users Collection 에서 name 이 DaveLee 인 Document의 name, age, address, _id 출력<br>
 //users Collection 에서 name 가 Kate 인 Document의 name, age, address 출력<br>
 db.users.find( 
@@ -22,9 +20,9 @@ db.users.find(
 {name:1,age:1,address:1,_id:0}
 )
 
-//4-2.2 다음 Document 데이터 넣기
-//   - age 가 20 보다 큰 Document 의 name 만 출력하기<br>
-//   - age 가 50 이고 address 가 경기도 인 Document 의 name 만 출력하기
+/*4-2.2 다음 Document 데이터 넣기
+  - age 가 20 보다 큰 Document 의 name 만 출력하기<br>
+  - age 가 50 이고 address 가 경기도 인 Document 의 name 만 출력하기*/
 db.users.find(
 
 {age:{$gt:20}},
@@ -42,3 +40,17 @@ db.users.find(
 
 )
 
+
+//4-3-1 age 가 40 보다 큰 Document 의 address 를 수원시 로 변환하기(UPDATE)
+db.users.updateMany(
+{age:{$gt:40}},{$set:{address:'수원시'}}
+)
+db.users.find().limit(5)
+
+
+//4-4.1 
+//age 가 30 보다 작은 Document 삭제하기
+db.users.deleteMany(
+{age:{$lt:30}}
+)
+db.users.find().limit(5)

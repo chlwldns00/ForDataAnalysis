@@ -41,6 +41,6 @@ Nosql데이터베이스 이해, 문법이해, aggregation문법 이해, pymongo,
   1.실제 mongoDB 생성후 실습
 - 파이프라인을 이용한 aggregation 문법이해  
   1.sharding이용  
-  2.크게 match,group,count,sort,unwind,limit : {}안에서 세부조건 덧붙이기
+  2.크게 match,group,count,sort,unwind,limit : {}안에서 세부조건 덧붙이기  
   3.aggregation을 활용한 검색 실습(***) 
 

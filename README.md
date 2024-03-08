@@ -37,9 +37,9 @@ Nosql데이터베이스 이해, 문법이해, aggregation문법 이해, pymongo,
 - MongoDB 데이터베이스 구조 이해  
   1.how to install  
   2.클라우드(aws,google,ncp등)에서 돌리는 방법(linux ubuntu사용)  
-- MongoDB CRUD 문법  
+- MongoDB CRUD 문법 [mflix 빅데이터베이스 이용]   
   1.실제 mongoDB 생성후 실습
-- 파이프라인을 이용한 aggregation 문법이해  
+- 파이프라인을 이용한 aggregation 문법이해  [mflix 빅데이터베이스 이용]   
   1.sharding이용  
   2.크게 match,group,count,sort,unwind,limit : {}안에서 세부조건 덧붙이기  
   3.aggregation을 활용한 검색 실습(***) 

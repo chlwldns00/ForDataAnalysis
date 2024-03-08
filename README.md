@@ -1,4 +1,4 @@
-# 데이터 분석가를 위한 역량 기르기
+# 데이터 분석가를 위한 역량 기르기 '*표시는 여러번보자'
 
 ## 1.데이터 수집 - 데이터 크롤링 , 전처리, 엑셀파일자동화 (정적 웹 페이지 데이터(html,css), openAPI데이터(JSON,XML)) 활용  
 - How to 크롤링  
@@ -42,4 +42,5 @@ Nosql데이터베이스 이해, 문법이해, aggregation문법 이해, pymongo,
 - 파이프라인을 이용한 aggregation 문법이해  
   1.sharding이용  
   2.크게 match,group,count,sort,unwind,limit : {}안에서 세부조건 덧붙이기  
+  3.aggregation을 활용한 검색 실습(***) 
 

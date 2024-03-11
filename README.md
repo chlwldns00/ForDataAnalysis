@@ -42,5 +42,9 @@ Nosql데이터베이스 이해, 문법이해, aggregation문법 이해, pymongo,
 - 파이프라인을 이용한 aggregation 문법이해  [mflix 빅데이터베이스 이용]   
   1.sharding이용  
   2.크게 match,group,count,sort,unwind,limit : {}안에서 세부조건 덧붙이기  
-  3.aggregation을 활용한 검색 실습(***) 
+  3.aggregation을 활용한 검색 실습(***)
+- pymongo라이브러리를 이용하여 파이썬환경에서 mongoDB연동해 사용하기
+  1.pymongo로 python <-> mongoDB 연동
+  2.pymongo 로 mongoDB CRUD 나타내기
+  3.pymongo 로 aggregation문법 사용하기 
 

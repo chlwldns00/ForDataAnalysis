@@ -50,5 +50,10 @@ Nosql데이터베이스 이해, 문법이해, aggregation문법 이해, pymongo,
 - *PYMONGO 활용 프로젝트*  
   1.pymongo 라이브러리로 mongoDB collection 연동  
   2.bs4라이브러리로 웹페이지 크롤링  
-  3.크롤링한 데이터로 collection 채우기 및 검색연산   
+  3.크롤링한 데이터로 collection 채우기 및 검색연산
+
+  ------------
+  ## 3.python벡엔드 및 서버기술(풀스택)  
+  ### Flask
+   
 

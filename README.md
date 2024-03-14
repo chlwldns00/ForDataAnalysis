@@ -53,7 +53,7 @@ Nosql데이터베이스 이해, 문법이해, aggregation문법 이해, pymongo,
   3.크롤링한 데이터로 collection 채우기 및 검색연산
 
   ------------
-  ## 3.python벡엔드 및 서버기술(풀스택)  
+  ## 3.python벡엔드,서버기술 및 파이썬 어플리케이션 개발  
   ### Flask
    
 

@@ -52,7 +52,7 @@
   3.크롤링한 데이터로 collection 채우기 및 검색연산  
 
   ------------
-## pandas,numpy 이용 데이터 분석 기초
+## pandas,numpy 이용 데이터 분석 프로젝트(WEIT 데이터스테이션)
 ## 3.python벡엔드,서버기술 및 파이썬 어플리케이션 개발  
 ### Flask
 - Flask, 벡엔드 기본구조  

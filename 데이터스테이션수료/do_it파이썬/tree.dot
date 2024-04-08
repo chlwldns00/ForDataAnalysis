@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="marital_status_Married-civ-spouse <= 0.5\ngini = 0.364\nsamples = 34189\nvalue = [8191, 25998]\nclass = low", fillcolor="#77bced"] ;
+1 [label="capital_gain <= 7073.5\ngini = 0.12\nsamples = 18492\nvalue = [1182, 17310]\nclass = low", fillcolor="#47a4e7"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="education_num <= 13.5\ngini = 0.091\nsamples = 18173\nvalue = [872, 17301]\nclass = low", fillcolor="#43a2e6"] ;
+1 -> 2 ;
+3 [label="gini = 0.07\nsamples = 17199\nvalue = [626, 16573]\nclass = low", fillcolor="#40a1e6"] ;
+2 -> 3 ;
+4 [label="gini = 0.378\nsamples = 974\nvalue = [246, 728]\nclass = low", fillcolor="#7cbeee"] ;
+2 -> 4 ;
+5 [label="age <= 20.5\ngini = 0.055\nsamples = 319\nvalue = [310, 9]\nclass = high", fillcolor="#e6853f"] ;
+1 -> 5 ;
+6 [label="gini = 0.375\nsamples = 4\nvalue = [1, 3]\nclass = low", fillcolor="#7bbeee"] ;
+5 -> 6 ;
+7 [label="gini = 0.037\nsamples = 315\nvalue = [309, 6]\nclass = high", fillcolor="#e6833d"] ;
+5 -> 7 ;
+8 [label="education_num <= 12.5\ngini = 0.494\nsamples = 15697\nvalue = [7009, 8688]\nclass = low", fillcolor="#d9ecfa"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="capital_gain <= 5095.5\ngini = 0.444\nsamples = 11096\nvalue = [3690, 7406]\nclass = low", fillcolor="#9ccef2"] ;
+8 -> 9 ;
+10 [label="gini = 0.419\nsamples = 10546\nvalue = [3151, 7395]\nclass = low", fillcolor="#8dc7f0"] ;
+9 -> 10 ;
+11 [label="gini = 0.039\nsamples = 550\nvalue = [539, 11]\nclass = high", fillcolor="#e6843d"] ;
+9 -> 11 ;
+12 [label="capital_gain <= 5095.5\ngini = 0.402\nsamples = 4601\nvalue = [3319, 1282]\nclass = high", fillcolor="#efb285"] ;
+8 -> 12 ;
+13 [label="gini = 0.441\nsamples = 3901\nvalue = [2621, 1280]\nclass = high", fillcolor="#f2bf9a"] ;
+12 -> 13 ;
+14 [label="gini = 0.006\nsamples = 700\nvalue = [698, 2]\nclass = high", fillcolor="#e5813a"] ;
+12 -> 14 ;
+}

@@ -28,7 +28,7 @@
 - 실제DB로 SQL실무 실습  
 1.여러가지 조건문 수행    
 2.테이블 JOIN, INDEX 작업
-- *DB CRUD 프로젝트*    
+- *DB CRUD 프로젝트* 파이썬환경에서 mysql연동 사용      
 1.pymysql 라이브러리로 mysql DB table연동  
 2.bs4라이브러리로 웹페이지 크롤링  
 3.크롤링한 데이터로 table채우기 및 검색연산      

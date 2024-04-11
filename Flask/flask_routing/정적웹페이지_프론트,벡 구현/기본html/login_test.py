@@ -19,7 +19,7 @@ def login():
 @app.route('/html_test')
 def hello_html():
     # html file은 templates 폴더에 위치해야 함
-    return render_template('login.html')
+    return render_template('login.html') #템플릿 폴더에 있는 html파일을 리턴해주는 역할
 
 
 if __name__ == '__main__':

@@ -54,7 +54,8 @@
   ------------
 ## pandas,numpy 이용 데이터 분석 프로젝트(WEIT 데이터스테이션)  
 > 데이터 스테이션 수료(데이터 분석 팀프로젝트 공동 레포지토리 https://github.com/chlwldns00/weit)    
-- mission1  
+- mission1
+- mission2
 ## 3.python벡엔드,서버기술 및 파이썬 어플리케이션 개발  
 ### Flask  
 - Flask, 벡엔드 기본구조  

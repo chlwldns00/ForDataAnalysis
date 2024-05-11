@@ -23,7 +23,7 @@ def hello_html():
     return render_template('login_rawtest.html')
 
 
-def get_blog_page():
+def get_blog_page(): # 세션값 카운트
     global session_count
     session_count += 1
     if session_count % 2 == 0:

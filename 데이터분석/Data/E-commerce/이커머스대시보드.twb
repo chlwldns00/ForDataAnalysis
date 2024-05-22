@@ -1,0 +1,662 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0425.1340                               -->
+<workbook original-version='18.1' source-build='2024.1.2 (20241.24.0425.1340)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='training_sample' inline='true' name='federated.1vn6v3c1e84hlw1g5zm7p0ubitjk' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='user_sample_now' name='textscan.1v8rdzj0vvxnad17cwy9l1c9d9zl'>
+            <connection class='textscan' directory='C:/Users/home/Documents/ForDataAnalysist/데이터분석/Data/E-commerce' filename='user_sample_now.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1v8rdzj0vvxnad17cwy9l1c9d9zl' name='user_sample_now.csv' table='[user_sample_now#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+            <column datatype='string' name='UserID' ordinal='0' />
+            <column datatype='integer' name='basket_icon_click' ordinal='1' />
+            <column datatype='integer' name='basket_add_list' ordinal='2' />
+            <column datatype='integer' name='basket_add_detail' ordinal='3' />
+            <column datatype='integer' name='sort_by' ordinal='4' />
+            <column datatype='integer' name='image_picker' ordinal='5' />
+            <column datatype='integer' name='account_page_click' ordinal='6' />
+            <column datatype='integer' name='promo_banner_click' ordinal='7' />
+            <column datatype='integer' name='detail_wishlist_add' ordinal='8' />
+            <column datatype='integer' name='list_size_dropdown' ordinal='9' />
+            <column datatype='integer' name='closed_minibasket_click' ordinal='10' />
+            <column datatype='integer' name='checked_delivery_detail' ordinal='11' />
+            <column datatype='integer' name='checked_returns_detail' ordinal='12' />
+            <column datatype='integer' name='sign_in' ordinal='13' />
+            <column datatype='integer' name='saw_checkout' ordinal='14' />
+            <column datatype='integer' name='saw_sizecharts' ordinal='15' />
+            <column datatype='integer' name='saw_delivery' ordinal='16' />
+            <column datatype='integer' name='saw_account_upgrade' ordinal='17' />
+            <column datatype='integer' name='saw_homepage' ordinal='18' />
+            <column datatype='integer' name='device_mobile' ordinal='19' />
+            <column datatype='integer' name='device_computer' ordinal='20' />
+            <column datatype='integer' name='device_tablet' ordinal='21' />
+            <column datatype='integer' name='returning_user' ordinal='22' />
+            <column datatype='integer' name='loc_uk' ordinal='23' />
+            <column datatype='integer' name='ordered' ordinal='24' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1v8rdzj0vvxnad17cwy9l1c9d9zl' name='user_sample_now.csv' table='[user_sample_now#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+            <column datatype='string' name='UserID' ordinal='0' />
+            <column datatype='integer' name='basket_icon_click' ordinal='1' />
+            <column datatype='integer' name='basket_add_list' ordinal='2' />
+            <column datatype='integer' name='basket_add_detail' ordinal='3' />
+            <column datatype='integer' name='sort_by' ordinal='4' />
+            <column datatype='integer' name='image_picker' ordinal='5' />
+            <column datatype='integer' name='account_page_click' ordinal='6' />
+            <column datatype='integer' name='promo_banner_click' ordinal='7' />
+            <column datatype='integer' name='detail_wishlist_add' ordinal='8' />
+            <column datatype='integer' name='list_size_dropdown' ordinal='9' />
+            <column datatype='integer' name='closed_minibasket_click' ordinal='10' />
+            <column datatype='integer' name='checked_delivery_detail' ordinal='11' />
+            <column datatype='integer' name='checked_returns_detail' ordinal='12' />
+            <column datatype='integer' name='sign_in' ordinal='13' />
+            <column datatype='integer' name='saw_checkout' ordinal='14' />
+            <column datatype='integer' name='saw_sizecharts' ordinal='15' />
+            <column datatype='integer' name='saw_delivery' ordinal='16' />
+            <column datatype='integer' name='saw_account_upgrade' ordinal='17' />
+            <column datatype='integer' name='saw_homepage' ordinal='18' />
+            <column datatype='integer' name='device_mobile' ordinal='19' />
+            <column datatype='integer' name='device_computer' ordinal='20' />
+            <column datatype='integer' name='device_tablet' ordinal='21' />
+            <column datatype='integer' name='returning_user' ordinal='22' />
+            <column datatype='integer' name='loc_uk' ordinal='23' />
+            <column datatype='integer' name='ordered' ordinal='24' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[user_sample_now.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ko&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₩&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ko_KR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UserID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[UserID]</local-name>
+            <parent-name>[user_sample_now.csv]</parent-name>
+            <remote-alias>UserID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_sample_now.csv_A232A8509587498FBDBAEF7384366CEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>basket_icon_click</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[basket_icon_click]</local-name>
+            <parent-name>[user_sample_now.csv]</parent-name>
+            <remote-alias>basket_icon_click</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_sample_now.csv_A232A8509587498FBDBAEF7384366CEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>basket_add_list</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[basket_add_list]</local-name>
+            <parent-name>[user_sample_now.csv]</parent-name>
+            <remote-alias>basket_add_list</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_sample_now.csv_A232A8509587498FBDBAEF7384366CEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>basket_add_detail</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[basket_add_detail]</local-name>
+            <parent-name>[user_sample_now.csv]</parent-name>
+            <remote-alias>basket_add_detail</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_sample_now.csv_A232A8509587498FBDBAEF7384366CEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sort_by</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[sort_by]</local-name>
+            <parent-name>[user_sample_now.csv]</parent-name>
+            <remote-alias>sort_by</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_sample_now.csv_A232A8509587498FBDBAEF7384366CEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>image_picker</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[image_picker]</local-name>
+            <parent-name>[user_sample_now.csv]</parent-name>
+            <remote-alias>image_picker</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_sample_now.csv_A232A8509587498FBDBAEF7384366CEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>account_page_click</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[account_page_click]</local-name>
+            <parent-name>[user_sample_now.csv]</parent-name>
+            <remote-alias>account_page_click</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_sample_now.csv_A232A8509587498FBDBAEF7384366CEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>promo_banner_click</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[promo_banner_click]</local-name>
+            <parent-name>[user_sample_now.csv]</parent-name>
+            <remote-alias>promo_banner_click</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_sample_now.csv_A232A8509587498FBDBAEF7384366CEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>detail_wishlist_add</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[detail_wishlist_add]</local-name>
+            <parent-name>[user_sample_now.csv]</parent-name>
+            <remote-alias>detail_wishlist_add</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_sample_now.csv_A232A8509587498FBDBAEF7384366CEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>list_size_dropdown</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[list_size_dropdown]</local-name>
+            <parent-name>[user_sample_now.csv]</parent-name>
+            <remote-alias>list_size_dropdown</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_sample_now.csv_A232A8509587498FBDBAEF7384366CEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>closed_minibasket_click</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[closed_minibasket_click]</local-name>
+            <parent-name>[user_sample_now.csv]</parent-name>
+            <remote-alias>closed_minibasket_click</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_sample_now.csv_A232A8509587498FBDBAEF7384366CEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>checked_delivery_detail</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[checked_delivery_detail]</local-name>
+            <parent-name>[user_sample_now.csv]</parent-name>
+            <remote-alias>checked_delivery_detail</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_sample_now.csv_A232A8509587498FBDBAEF7384366CEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>checked_returns_detail</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[checked_returns_detail]</local-name>
+            <parent-name>[user_sample_now.csv]</parent-name>
+            <remote-alias>checked_returns_detail</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_sample_now.csv_A232A8509587498FBDBAEF7384366CEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sign_in</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[sign_in]</local-name>
+            <parent-name>[user_sample_now.csv]</parent-name>
+            <remote-alias>sign_in</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_sample_now.csv_A232A8509587498FBDBAEF7384366CEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>saw_checkout</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[saw_checkout]</local-name>
+            <parent-name>[user_sample_now.csv]</parent-name>
+            <remote-alias>saw_checkout</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_sample_now.csv_A232A8509587498FBDBAEF7384366CEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>saw_sizecharts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[saw_sizecharts]</local-name>
+            <parent-name>[user_sample_now.csv]</parent-name>
+            <remote-alias>saw_sizecharts</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_sample_now.csv_A232A8509587498FBDBAEF7384366CEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>saw_delivery</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[saw_delivery]</local-name>
+            <parent-name>[user_sample_now.csv]</parent-name>
+            <remote-alias>saw_delivery</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_sample_now.csv_A232A8509587498FBDBAEF7384366CEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>saw_account_upgrade</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[saw_account_upgrade]</local-name>
+            <parent-name>[user_sample_now.csv]</parent-name>
+            <remote-alias>saw_account_upgrade</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_sample_now.csv_A232A8509587498FBDBAEF7384366CEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>saw_homepage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[saw_homepage]</local-name>
+            <parent-name>[user_sample_now.csv]</parent-name>
+            <remote-alias>saw_homepage</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_sample_now.csv_A232A8509587498FBDBAEF7384366CEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>device_mobile</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[device_mobile]</local-name>
+            <parent-name>[user_sample_now.csv]</parent-name>
+            <remote-alias>device_mobile</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_sample_now.csv_A232A8509587498FBDBAEF7384366CEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>device_computer</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[device_computer]</local-name>
+            <parent-name>[user_sample_now.csv]</parent-name>
+            <remote-alias>device_computer</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_sample_now.csv_A232A8509587498FBDBAEF7384366CEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>device_tablet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[device_tablet]</local-name>
+            <parent-name>[user_sample_now.csv]</parent-name>
+            <remote-alias>device_tablet</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_sample_now.csv_A232A8509587498FBDBAEF7384366CEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>returning_user</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[returning_user]</local-name>
+            <parent-name>[user_sample_now.csv]</parent-name>
+            <remote-alias>returning_user</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_sample_now.csv_A232A8509587498FBDBAEF7384366CEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>loc_uk</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[loc_uk]</local-name>
+            <parent-name>[user_sample_now.csv]</parent-name>
+            <remote-alias>loc_uk</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_sample_now.csv_A232A8509587498FBDBAEF7384366CEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ordered</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ordered]</local-name>
+            <parent-name>[user_sample_now.csv]</parent-name>
+            <remote-alias>ordered</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_sample_now.csv_A232A8509587498FBDBAEF7384366CEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='User ID' datatype='string' name='[UserID]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='user_sample_now.csv' datatype='table' name='[__tableau_internal_object_id__].[user_sample_now.csv_A232A8509587498FBDBAEF7384366CEE]' role='measure' type='quantitative' />
+      <column caption='Account Page Click' datatype='integer' name='[account_page_click]' role='measure' type='quantitative' />
+      <column caption='Basket Add Detail' datatype='integer' name='[basket_add_detail]' role='measure' type='quantitative' />
+      <column caption='Basket Add List' datatype='integer' name='[basket_add_list]' role='measure' type='quantitative' />
+      <column caption='Basket Icon Click' datatype='integer' name='[basket_icon_click]' role='measure' type='quantitative' />
+      <column caption='Checked Delivery Detail' datatype='integer' name='[checked_delivery_detail]' role='measure' type='quantitative' />
+      <column caption='Checked Returns Detail' datatype='integer' name='[checked_returns_detail]' role='measure' type='quantitative' />
+      <column caption='Closed Minibasket Click' datatype='integer' name='[closed_minibasket_click]' role='measure' type='quantitative' />
+      <column caption='Detail Wishlist Add' datatype='integer' name='[detail_wishlist_add]' role='measure' type='quantitative' />
+      <column caption='Device Computer' datatype='integer' name='[device_computer]' role='measure' type='quantitative' />
+      <column caption='Device Mobile' datatype='integer' name='[device_mobile]' role='measure' type='quantitative' />
+      <column caption='Device Tablet' datatype='integer' name='[device_tablet]' role='measure' type='quantitative' />
+      <column caption='Image Picker' datatype='integer' name='[image_picker]' role='measure' type='quantitative' />
+      <column caption='List Size Dropdown' datatype='integer' name='[list_size_dropdown]' role='measure' type='quantitative' />
+      <column caption='Loc Uk' datatype='integer' name='[loc_uk]' role='measure' type='quantitative' />
+      <column caption='Ordered' datatype='integer' name='[ordered]' role='measure' type='quantitative' />
+      <column caption='Promo Banner Click' datatype='integer' name='[promo_banner_click]' role='measure' type='quantitative' />
+      <column caption='Returning User' datatype='integer' name='[returning_user]' role='measure' type='quantitative' />
+      <column caption='Saw Account Upgrade' datatype='integer' name='[saw_account_upgrade]' role='measure' type='quantitative' />
+      <column caption='Saw Checkout' datatype='integer' name='[saw_checkout]' role='measure' type='quantitative' />
+      <column caption='Saw Delivery' datatype='integer' name='[saw_delivery]' role='measure' type='quantitative' />
+      <column caption='Saw Homepage' datatype='integer' name='[saw_homepage]' role='measure' type='quantitative' />
+      <column caption='Saw Sizecharts' datatype='integer' name='[saw_sizecharts]' role='measure' type='quantitative' />
+      <column caption='Sign In' datatype='integer' name='[sign_in]' role='measure' type='quantitative' />
+      <column caption='Sort By' datatype='integer' name='[sort_by]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='user_sample_now.csv' id='user_sample_now.csv_A232A8509587498FBDBAEF7384366CEE'>
+            <properties context=''>
+              <relation connection='textscan.1v8rdzj0vvxnad17cwy9l1c9d9zl' name='user_sample_now.csv' table='[user_sample_now#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+                  <column datatype='string' name='UserID' ordinal='0' />
+                  <column datatype='integer' name='basket_icon_click' ordinal='1' />
+                  <column datatype='integer' name='basket_add_list' ordinal='2' />
+                  <column datatype='integer' name='basket_add_detail' ordinal='3' />
+                  <column datatype='integer' name='sort_by' ordinal='4' />
+                  <column datatype='integer' name='image_picker' ordinal='5' />
+                  <column datatype='integer' name='account_page_click' ordinal='6' />
+                  <column datatype='integer' name='promo_banner_click' ordinal='7' />
+                  <column datatype='integer' name='detail_wishlist_add' ordinal='8' />
+                  <column datatype='integer' name='list_size_dropdown' ordinal='9' />
+                  <column datatype='integer' name='closed_minibasket_click' ordinal='10' />
+                  <column datatype='integer' name='checked_delivery_detail' ordinal='11' />
+                  <column datatype='integer' name='checked_returns_detail' ordinal='12' />
+                  <column datatype='integer' name='sign_in' ordinal='13' />
+                  <column datatype='integer' name='saw_checkout' ordinal='14' />
+                  <column datatype='integer' name='saw_sizecharts' ordinal='15' />
+                  <column datatype='integer' name='saw_delivery' ordinal='16' />
+                  <column datatype='integer' name='saw_account_upgrade' ordinal='17' />
+                  <column datatype='integer' name='saw_homepage' ordinal='18' />
+                  <column datatype='integer' name='device_mobile' ordinal='19' />
+                  <column datatype='integer' name='device_computer' ordinal='20' />
+                  <column datatype='integer' name='device_tablet' ordinal='21' />
+                  <column datatype='integer' name='returning_user' ordinal='22' />
+                  <column datatype='integer' name='loc_uk' ordinal='23' />
+                  <column datatype='integer' name='ordered' ordinal='24' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='시트 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{7C79E2DE-BD2A-41CF-AB51-468777FA2CBB}' />
+    </worksheet>
+    <worksheet name='시트 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='training_sample' name='federated.1vn6v3c1e84hlw1g5zm7p0ubitjk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vn6v3c1e84hlw1g5zm7p0ubitjk'>
+            <column caption='Device Computer' datatype='integer' name='[device_computer]' role='measure' type='quantitative' />
+            <column caption='Device Mobile' datatype='integer' name='[device_mobile]' role='measure' type='quantitative' />
+            <column caption='Device Tablet' datatype='integer' name='[device_tablet]' role='measure' type='quantitative' />
+            <column-instance column='[device_computer]' derivation='Sum' name='[sum:device_computer:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[device_mobile]' derivation='Sum' name='[sum:device_mobile:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[device_tablet]' derivation='Sum' name='[sum:device_tablet:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1vn6v3c1e84hlw1g5zm7p0ubitjk].[sum:device_computer:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1vn6v3c1e84hlw1g5zm7p0ubitjk].[sum:device_mobile:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1vn6v3c1e84hlw1g5zm7p0ubitjk].[sum:device_tablet:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols>([federated.1vn6v3c1e84hlw1g5zm7p0ubitjk].[sum:device_computer:qk] + ([federated.1vn6v3c1e84hlw1g5zm7p0ubitjk].[sum:device_mobile:qk] + [federated.1vn6v3c1e84hlw1g5zm7p0ubitjk].[sum:device_tablet:qk]))</cols>
+      </table>
+      <simple-id uuid='{C6D53515-C0E4-440C-8457-DBB94F528ED2}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='시트 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DF4BAD27-3925-46CA-AF40-C0CB5C465255}' />
+    </window>
+    <window class='worksheet' name='시트 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1vn6v3c1e84hlw1g5zm7p0ubitjk].[none:Calculation_1445655498755575809:qk]</field>
+            <field>[federated.1vn6v3c1e84hlw1g5zm7p0ubitjk].[none:UserID:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5612A13A-5F1B-4C17-934A-6939C4B7683B}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='시트 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='95' name='시트 2' width='192'>
+      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
+      AElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>

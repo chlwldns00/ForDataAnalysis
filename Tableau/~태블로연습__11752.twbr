@@ -2637,120 +2637,120 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='2024년 04월  교통카드 통계자료' name='excel-direct.0g7g6ji0hzadin1eqfy6p00a5icm'>
-            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='C:/Users/home/Downloads/2024년 04월  교통카드 통계자료.xls' interpretationMode='1' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/home/Downloads/2024년 04월  교통카드 통계자료.xls' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0g7g6ji0hzadin1eqfy6p00a5icm' name='지하철 시간대별 이용현황' table='[&apos;지하철 시간대별 이용현황$&apos;]' type='table'>
-          <columns gridOrigin='A1:BA623:no:A1:BA623:2' lost='0' outcome='1' processed='30429'>
+          <columns gridOrigin='A1:BA623:no:A1:BA623:0' header='yes' lost='0' outcome='2' processed='30429'>
             <column datatype='string' name='사용월' ordinal='0' />
             <column datatype='string' name='호선명' ordinal='1' />
-            <column datatype='integer' name='역ID' ordinal='2' />
+            <column datatype='string' name='역ID' ordinal='2' />
             <column datatype='string' name='지하철역' ordinal='3' />
-            <column datatype='integer' name='04:00:00~04:59:59 승차' ordinal='4' />
-            <column datatype='integer' name='04:00:00~04:59:59 하차' ordinal='5' />
-            <column datatype='integer' name='05:00:00~05:59:59 승차' ordinal='6' />
-            <column datatype='integer' name='05:00:00~05:59:59 하차' ordinal='7' />
-            <column datatype='integer' name='06:00:00~06:59:59 승차' ordinal='8' />
-            <column datatype='integer' name='06:00:00~06:59:59 하차' ordinal='9' />
-            <column datatype='integer' name='07:00:00~07:59:59 승차' ordinal='10' />
-            <column datatype='integer' name='07:00:00~07:59:59 하차' ordinal='11' />
-            <column datatype='integer' name='08:00:00~08:59:59 승차' ordinal='12' />
-            <column datatype='integer' name='08:00:00~08:59:59 하차' ordinal='13' />
-            <column datatype='integer' name='09:00:00~09:59:59 승차' ordinal='14' />
-            <column datatype='integer' name='09:00:00~09:59:59 하차' ordinal='15' />
-            <column datatype='integer' name='10:00:00~10:59:59 승차' ordinal='16' />
-            <column datatype='integer' name='10:00:00~10:59:59 하차' ordinal='17' />
-            <column datatype='integer' name='11:00:00~11:59:59 승차' ordinal='18' />
-            <column datatype='integer' name='11:00:00~11:59:59 하차' ordinal='19' />
-            <column datatype='integer' name='12:00:00~12:59:59 승차' ordinal='20' />
-            <column datatype='integer' name='12:00:00~12:59:59 하차' ordinal='21' />
-            <column datatype='integer' name='13:00:00~13:59:59 승차' ordinal='22' />
-            <column datatype='integer' name='13:00:00~13:59:59 하차' ordinal='23' />
-            <column datatype='integer' name='14:00:00~14:59:59 승차' ordinal='24' />
-            <column datatype='integer' name='14:00:00~14:59:59 하차' ordinal='25' />
-            <column datatype='integer' name='15:00:00~15:59:59 승차' ordinal='26' />
-            <column datatype='integer' name='15:00:00~15:59:59 하차' ordinal='27' />
-            <column datatype='integer' name='16:00:00~16:59:59 승차' ordinal='28' />
-            <column datatype='integer' name='16:00:00~16:59:59 하차' ordinal='29' />
-            <column datatype='integer' name='17:00:00~17:59:59 승차' ordinal='30' />
-            <column datatype='integer' name='17:00:00~17:59:59 하차' ordinal='31' />
-            <column datatype='integer' name='18:00:00~18:59:59 승차' ordinal='32' />
-            <column datatype='integer' name='18:00:00~18:59:59 하차' ordinal='33' />
-            <column datatype='integer' name='19:00:00~19:59:59 승차' ordinal='34' />
-            <column datatype='integer' name='19:00:00~19:59:59 하차' ordinal='35' />
-            <column datatype='integer' name='20:00:00~20:59:59 승차' ordinal='36' />
-            <column datatype='integer' name='20:00:00~20:59:59 하차' ordinal='37' />
-            <column datatype='integer' name='21:00:00~21:59:59 승차' ordinal='38' />
-            <column datatype='integer' name='21:00:00~21:59:59 하차' ordinal='39' />
-            <column datatype='integer' name='22:00:00~22:59:59 승차' ordinal='40' />
-            <column datatype='integer' name='22:00:00~22:59:59 하차' ordinal='41' />
-            <column datatype='integer' name='23:00:00~23:59:59 승차' ordinal='42' />
-            <column datatype='integer' name='23:00:00~23:59:59 하차' ordinal='43' />
-            <column datatype='integer' name='00:00:00~00:59:59 승차' ordinal='44' />
-            <column datatype='integer' name='00:00:00~00:59:59 하차' ordinal='45' />
-            <column datatype='integer' name='01:00:00~01:59:59 승차' ordinal='46' />
-            <column datatype='integer' name='01:00:00~01:59:59 하차' ordinal='47' />
-            <column datatype='integer' name='02:00:00~02:59:59 승차' ordinal='48' />
-            <column datatype='integer' name='02:00:00~02:59:59 하차' ordinal='49' />
-            <column datatype='integer' name='03:00:00~03:59:59 승차' ordinal='50' />
-            <column datatype='integer' name='03:00:00~03:59:59 하차' ordinal='51' />
+            <column datatype='string' name='04:00:00~04:59:59' ordinal='4' />
+            <column datatype='string' name='F6' ordinal='5' />
+            <column datatype='string' name='05:00:00~05:59:59' ordinal='6' />
+            <column datatype='string' name='F8' ordinal='7' />
+            <column datatype='string' name='06:00:00~06:59:59' ordinal='8' />
+            <column datatype='string' name='F10' ordinal='9' />
+            <column datatype='string' name='07:00:00~07:59:59' ordinal='10' />
+            <column datatype='string' name='F12' ordinal='11' />
+            <column datatype='string' name='08:00:00~08:59:59' ordinal='12' />
+            <column datatype='string' name='F14' ordinal='13' />
+            <column datatype='string' name='09:00:00~09:59:59' ordinal='14' />
+            <column datatype='string' name='F16' ordinal='15' />
+            <column datatype='string' name='10:00:00~10:59:59' ordinal='16' />
+            <column datatype='string' name='F18' ordinal='17' />
+            <column datatype='string' name='11:00:00~11:59:59' ordinal='18' />
+            <column datatype='string' name='F20' ordinal='19' />
+            <column datatype='string' name='12:00:00~12:59:59' ordinal='20' />
+            <column datatype='string' name='F22' ordinal='21' />
+            <column datatype='string' name='13:00:00~13:59:59' ordinal='22' />
+            <column datatype='string' name='F24' ordinal='23' />
+            <column datatype='string' name='14:00:00~14:59:59' ordinal='24' />
+            <column datatype='string' name='F26' ordinal='25' />
+            <column datatype='string' name='15:00:00~15:59:59' ordinal='26' />
+            <column datatype='string' name='F28' ordinal='27' />
+            <column datatype='string' name='16:00:00~16:59:59' ordinal='28' />
+            <column datatype='string' name='F30' ordinal='29' />
+            <column datatype='string' name='17:00:00~17:59:59' ordinal='30' />
+            <column datatype='string' name='F32' ordinal='31' />
+            <column datatype='string' name='18:00:00~18:59:59' ordinal='32' />
+            <column datatype='string' name='F34' ordinal='33' />
+            <column datatype='string' name='19:00:00~19:59:59' ordinal='34' />
+            <column datatype='string' name='F36' ordinal='35' />
+            <column datatype='string' name='20:00:00~20:59:59' ordinal='36' />
+            <column datatype='string' name='F38' ordinal='37' />
+            <column datatype='string' name='21:00:00~21:59:59' ordinal='38' />
+            <column datatype='string' name='F40' ordinal='39' />
+            <column datatype='string' name='22:00:00~22:59:59' ordinal='40' />
+            <column datatype='string' name='F42' ordinal='41' />
+            <column datatype='string' name='23:00:00~23:59:59' ordinal='42' />
+            <column datatype='string' name='F44' ordinal='43' />
+            <column datatype='string' name='00:00:00~00:59:59' ordinal='44' />
+            <column datatype='string' name='F46' ordinal='45' />
+            <column datatype='string' name='01:00:00~01:59:59' ordinal='46' />
+            <column datatype='string' name='F48' ordinal='47' />
+            <column datatype='string' name='02:00:00~02:59:59' ordinal='48' />
+            <column datatype='string' name='F50' ordinal='49' />
+            <column datatype='string' name='03:00:00~03:59:59' ordinal='50' />
+            <column datatype='string' name='F52' ordinal='51' />
             <column datatype='string' name='작업일시' ordinal='52' />
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
         <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0g7g6ji0hzadin1eqfy6p00a5icm' name='지하철 시간대별 이용현황' table='[&apos;지하철 시간대별 이용현황$&apos;]' type='table'>
-          <columns gridOrigin='A1:BA623:no:A1:BA623:2' lost='0' outcome='1' processed='30429'>
+          <columns gridOrigin='A1:BA623:no:A1:BA623:0' header='yes' lost='0' outcome='2' processed='30429'>
             <column datatype='string' name='사용월' ordinal='0' />
             <column datatype='string' name='호선명' ordinal='1' />
-            <column datatype='integer' name='역ID' ordinal='2' />
+            <column datatype='string' name='역ID' ordinal='2' />
             <column datatype='string' name='지하철역' ordinal='3' />
-            <column datatype='integer' name='04:00:00~04:59:59 승차' ordinal='4' />
-            <column datatype='integer' name='04:00:00~04:59:59 하차' ordinal='5' />
-            <column datatype='integer' name='05:00:00~05:59:59 승차' ordinal='6' />
-            <column datatype='integer' name='05:00:00~05:59:59 하차' ordinal='7' />
-            <column datatype='integer' name='06:00:00~06:59:59 승차' ordinal='8' />
-            <column datatype='integer' name='06:00:00~06:59:59 하차' ordinal='9' />
-            <column datatype='integer' name='07:00:00~07:59:59 승차' ordinal='10' />
-            <column datatype='integer' name='07:00:00~07:59:59 하차' ordinal='11' />
-            <column datatype='integer' name='08:00:00~08:59:59 승차' ordinal='12' />
-            <column datatype='integer' name='08:00:00~08:59:59 하차' ordinal='13' />
-            <column datatype='integer' name='09:00:00~09:59:59 승차' ordinal='14' />
-            <column datatype='integer' name='09:00:00~09:59:59 하차' ordinal='15' />
-            <column datatype='integer' name='10:00:00~10:59:59 승차' ordinal='16' />
-            <column datatype='integer' name='10:00:00~10:59:59 하차' ordinal='17' />
-            <column datatype='integer' name='11:00:00~11:59:59 승차' ordinal='18' />
-            <column datatype='integer' name='11:00:00~11:59:59 하차' ordinal='19' />
-            <column datatype='integer' name='12:00:00~12:59:59 승차' ordinal='20' />
-            <column datatype='integer' name='12:00:00~12:59:59 하차' ordinal='21' />
-            <column datatype='integer' name='13:00:00~13:59:59 승차' ordinal='22' />
-            <column datatype='integer' name='13:00:00~13:59:59 하차' ordinal='23' />
-            <column datatype='integer' name='14:00:00~14:59:59 승차' ordinal='24' />
-            <column datatype='integer' name='14:00:00~14:59:59 하차' ordinal='25' />
-            <column datatype='integer' name='15:00:00~15:59:59 승차' ordinal='26' />
-            <column datatype='integer' name='15:00:00~15:59:59 하차' ordinal='27' />
-            <column datatype='integer' name='16:00:00~16:59:59 승차' ordinal='28' />
-            <column datatype='integer' name='16:00:00~16:59:59 하차' ordinal='29' />
-            <column datatype='integer' name='17:00:00~17:59:59 승차' ordinal='30' />
-            <column datatype='integer' name='17:00:00~17:59:59 하차' ordinal='31' />
-            <column datatype='integer' name='18:00:00~18:59:59 승차' ordinal='32' />
-            <column datatype='integer' name='18:00:00~18:59:59 하차' ordinal='33' />
-            <column datatype='integer' name='19:00:00~19:59:59 승차' ordinal='34' />
-            <column datatype='integer' name='19:00:00~19:59:59 하차' ordinal='35' />
-            <column datatype='integer' name='20:00:00~20:59:59 승차' ordinal='36' />
-            <column datatype='integer' name='20:00:00~20:59:59 하차' ordinal='37' />
-            <column datatype='integer' name='21:00:00~21:59:59 승차' ordinal='38' />
-            <column datatype='integer' name='21:00:00~21:59:59 하차' ordinal='39' />
-            <column datatype='integer' name='22:00:00~22:59:59 승차' ordinal='40' />
-            <column datatype='integer' name='22:00:00~22:59:59 하차' ordinal='41' />
-            <column datatype='integer' name='23:00:00~23:59:59 승차' ordinal='42' />
-            <column datatype='integer' name='23:00:00~23:59:59 하차' ordinal='43' />
-            <column datatype='integer' name='00:00:00~00:59:59 승차' ordinal='44' />
-            <column datatype='integer' name='00:00:00~00:59:59 하차' ordinal='45' />
-            <column datatype='integer' name='01:00:00~01:59:59 승차' ordinal='46' />
-            <column datatype='integer' name='01:00:00~01:59:59 하차' ordinal='47' />
-            <column datatype='integer' name='02:00:00~02:59:59 승차' ordinal='48' />
-            <column datatype='integer' name='02:00:00~02:59:59 하차' ordinal='49' />
-            <column datatype='integer' name='03:00:00~03:59:59 승차' ordinal='50' />
-            <column datatype='integer' name='03:00:00~03:59:59 하차' ordinal='51' />
+            <column datatype='string' name='04:00:00~04:59:59' ordinal='4' />
+            <column datatype='string' name='F6' ordinal='5' />
+            <column datatype='string' name='05:00:00~05:59:59' ordinal='6' />
+            <column datatype='string' name='F8' ordinal='7' />
+            <column datatype='string' name='06:00:00~06:59:59' ordinal='8' />
+            <column datatype='string' name='F10' ordinal='9' />
+            <column datatype='string' name='07:00:00~07:59:59' ordinal='10' />
+            <column datatype='string' name='F12' ordinal='11' />
+            <column datatype='string' name='08:00:00~08:59:59' ordinal='12' />
+            <column datatype='string' name='F14' ordinal='13' />
+            <column datatype='string' name='09:00:00~09:59:59' ordinal='14' />
+            <column datatype='string' name='F16' ordinal='15' />
+            <column datatype='string' name='10:00:00~10:59:59' ordinal='16' />
+            <column datatype='string' name='F18' ordinal='17' />
+            <column datatype='string' name='11:00:00~11:59:59' ordinal='18' />
+            <column datatype='string' name='F20' ordinal='19' />
+            <column datatype='string' name='12:00:00~12:59:59' ordinal='20' />
+            <column datatype='string' name='F22' ordinal='21' />
+            <column datatype='string' name='13:00:00~13:59:59' ordinal='22' />
+            <column datatype='string' name='F24' ordinal='23' />
+            <column datatype='string' name='14:00:00~14:59:59' ordinal='24' />
+            <column datatype='string' name='F26' ordinal='25' />
+            <column datatype='string' name='15:00:00~15:59:59' ordinal='26' />
+            <column datatype='string' name='F28' ordinal='27' />
+            <column datatype='string' name='16:00:00~16:59:59' ordinal='28' />
+            <column datatype='string' name='F30' ordinal='29' />
+            <column datatype='string' name='17:00:00~17:59:59' ordinal='30' />
+            <column datatype='string' name='F32' ordinal='31' />
+            <column datatype='string' name='18:00:00~18:59:59' ordinal='32' />
+            <column datatype='string' name='F34' ordinal='33' />
+            <column datatype='string' name='19:00:00~19:59:59' ordinal='34' />
+            <column datatype='string' name='F36' ordinal='35' />
+            <column datatype='string' name='20:00:00~20:59:59' ordinal='36' />
+            <column datatype='string' name='F38' ordinal='37' />
+            <column datatype='string' name='21:00:00~21:59:59' ordinal='38' />
+            <column datatype='string' name='F40' ordinal='39' />
+            <column datatype='string' name='22:00:00~22:59:59' ordinal='40' />
+            <column datatype='string' name='F42' ordinal='41' />
+            <column datatype='string' name='23:00:00~23:59:59' ordinal='42' />
+            <column datatype='string' name='F44' ordinal='43' />
+            <column datatype='string' name='00:00:00~00:59:59' ordinal='44' />
+            <column datatype='string' name='F46' ordinal='45' />
+            <column datatype='string' name='01:00:00~01:59:59' ordinal='46' />
+            <column datatype='string' name='F48' ordinal='47' />
+            <column datatype='string' name='02:00:00~02:59:59' ordinal='48' />
+            <column datatype='string' name='F50' ordinal='49' />
+            <column datatype='string' name='03:00:00~03:59:59' ordinal='50' />
+            <column datatype='string' name='F52' ordinal='51' />
             <column datatype='string' name='작업일시' ordinal='52' />
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
@@ -2765,10 +2765,9 @@
             <contains-null>true</contains-null>
             <attributes>
               <attribute datatype='integer' name='context'>0</attribute>
-              <attribute datatype='string' name='gridOrigin'>&quot;A1:BA623:no:A1:BA623:2&quot;</attribute>
-              <attribute datatype='integer' name='lost'>0</attribute>
-              <attribute datatype='integer' name='outcome'>1</attribute>
-              <attribute datatype='integer' name='processed'>30429</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BA623:no:A1:BA623:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
@@ -2805,16 +2804,17 @@
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>역ID</remote-name>
-            <remote-type>20</remote-type>
+            <remote-type>130</remote-type>
             <local-name>[역ID]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
             <remote-alias>역ID</remote-alias>
             <ordinal>2</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
@@ -2835,722 +2835,770 @@
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>04:00:00~04:59:59 승차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[04:00:00~04:59:59 승차]</local-name>
+            <remote-name>04:00:00~04:59:59</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[04:00:00~04:59:59]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>04:00:00~04:59:59 승차</remote-alias>
+            <remote-alias>04:00:00~04:59:59</remote-alias>
             <ordinal>4</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>04:00:00~04:59:59 하차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[04:00:00~04:59:59 하차]</local-name>
+            <remote-name>F6</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F6]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>04:00:00~04:59:59 하차</remote-alias>
+            <remote-alias>F6</remote-alias>
             <ordinal>5</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>05:00:00~05:59:59 승차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[05:00:00~05:59:59 승차]</local-name>
+            <remote-name>05:00:00~05:59:59</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[05:00:00~05:59:59]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>05:00:00~05:59:59 승차</remote-alias>
+            <remote-alias>05:00:00~05:59:59</remote-alias>
             <ordinal>6</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>05:00:00~05:59:59 하차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[05:00:00~05:59:59 하차]</local-name>
+            <remote-name>F8</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F8]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>05:00:00~05:59:59 하차</remote-alias>
+            <remote-alias>F8</remote-alias>
             <ordinal>7</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>06:00:00~06:59:59 승차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[06:00:00~06:59:59 승차]</local-name>
+            <remote-name>06:00:00~06:59:59</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[06:00:00~06:59:59]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>06:00:00~06:59:59 승차</remote-alias>
+            <remote-alias>06:00:00~06:59:59</remote-alias>
             <ordinal>8</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>06:00:00~06:59:59 하차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[06:00:00~06:59:59 하차]</local-name>
+            <remote-name>F10</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F10]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>06:00:00~06:59:59 하차</remote-alias>
+            <remote-alias>F10</remote-alias>
             <ordinal>9</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>07:00:00~07:59:59 승차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[07:00:00~07:59:59 승차]</local-name>
+            <remote-name>07:00:00~07:59:59</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[07:00:00~07:59:59]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>07:00:00~07:59:59 승차</remote-alias>
+            <remote-alias>07:00:00~07:59:59</remote-alias>
             <ordinal>10</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>07:00:00~07:59:59 하차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[07:00:00~07:59:59 하차]</local-name>
+            <remote-name>F12</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F12]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>07:00:00~07:59:59 하차</remote-alias>
+            <remote-alias>F12</remote-alias>
             <ordinal>11</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>08:00:00~08:59:59 승차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[08:00:00~08:59:59 승차]</local-name>
+            <remote-name>08:00:00~08:59:59</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[08:00:00~08:59:59]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>08:00:00~08:59:59 승차</remote-alias>
+            <remote-alias>08:00:00~08:59:59</remote-alias>
             <ordinal>12</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>08:00:00~08:59:59 하차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[08:00:00~08:59:59 하차]</local-name>
+            <remote-name>F14</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F14]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>08:00:00~08:59:59 하차</remote-alias>
+            <remote-alias>F14</remote-alias>
             <ordinal>13</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>09:00:00~09:59:59 승차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[09:00:00~09:59:59 승차]</local-name>
+            <remote-name>09:00:00~09:59:59</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[09:00:00~09:59:59]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>09:00:00~09:59:59 승차</remote-alias>
+            <remote-alias>09:00:00~09:59:59</remote-alias>
             <ordinal>14</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>09:00:00~09:59:59 하차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[09:00:00~09:59:59 하차]</local-name>
+            <remote-name>F16</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F16]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>09:00:00~09:59:59 하차</remote-alias>
+            <remote-alias>F16</remote-alias>
             <ordinal>15</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>10:00:00~10:59:59 승차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[10:00:00~10:59:59 승차]</local-name>
+            <remote-name>10:00:00~10:59:59</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[10:00:00~10:59:59]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>10:00:00~10:59:59 승차</remote-alias>
+            <remote-alias>10:00:00~10:59:59</remote-alias>
             <ordinal>16</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>10:00:00~10:59:59 하차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[10:00:00~10:59:59 하차]</local-name>
+            <remote-name>F18</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F18]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>10:00:00~10:59:59 하차</remote-alias>
+            <remote-alias>F18</remote-alias>
             <ordinal>17</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>11:00:00~11:59:59 승차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[11:00:00~11:59:59 승차]</local-name>
+            <remote-name>11:00:00~11:59:59</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[11:00:00~11:59:59]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>11:00:00~11:59:59 승차</remote-alias>
+            <remote-alias>11:00:00~11:59:59</remote-alias>
             <ordinal>18</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>11:00:00~11:59:59 하차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[11:00:00~11:59:59 하차]</local-name>
+            <remote-name>F20</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F20]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>11:00:00~11:59:59 하차</remote-alias>
+            <remote-alias>F20</remote-alias>
             <ordinal>19</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>12:00:00~12:59:59 승차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[12:00:00~12:59:59 승차]</local-name>
+            <remote-name>12:00:00~12:59:59</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[12:00:00~12:59:59]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>12:00:00~12:59:59 승차</remote-alias>
+            <remote-alias>12:00:00~12:59:59</remote-alias>
             <ordinal>20</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>12:00:00~12:59:59 하차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[12:00:00~12:59:59 하차]</local-name>
+            <remote-name>F22</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F22]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>12:00:00~12:59:59 하차</remote-alias>
+            <remote-alias>F22</remote-alias>
             <ordinal>21</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>13:00:00~13:59:59 승차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[13:00:00~13:59:59 승차]</local-name>
+            <remote-name>13:00:00~13:59:59</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[13:00:00~13:59:59]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>13:00:00~13:59:59 승차</remote-alias>
+            <remote-alias>13:00:00~13:59:59</remote-alias>
             <ordinal>22</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>13:00:00~13:59:59 하차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[13:00:00~13:59:59 하차]</local-name>
+            <remote-name>F24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F24]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>13:00:00~13:59:59 하차</remote-alias>
+            <remote-alias>F24</remote-alias>
             <ordinal>23</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>14:00:00~14:59:59 승차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[14:00:00~14:59:59 승차]</local-name>
+            <remote-name>14:00:00~14:59:59</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[14:00:00~14:59:59]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>14:00:00~14:59:59 승차</remote-alias>
+            <remote-alias>14:00:00~14:59:59</remote-alias>
             <ordinal>24</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>14:00:00~14:59:59 하차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[14:00:00~14:59:59 하차]</local-name>
+            <remote-name>F26</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F26]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>14:00:00~14:59:59 하차</remote-alias>
+            <remote-alias>F26</remote-alias>
             <ordinal>25</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>15:00:00~15:59:59 승차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[15:00:00~15:59:59 승차]</local-name>
+            <remote-name>15:00:00~15:59:59</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[15:00:00~15:59:59]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>15:00:00~15:59:59 승차</remote-alias>
+            <remote-alias>15:00:00~15:59:59</remote-alias>
             <ordinal>26</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>15:00:00~15:59:59 하차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[15:00:00~15:59:59 하차]</local-name>
+            <remote-name>F28</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F28]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>15:00:00~15:59:59 하차</remote-alias>
+            <remote-alias>F28</remote-alias>
             <ordinal>27</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>16:00:00~16:59:59 승차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[16:00:00~16:59:59 승차]</local-name>
+            <remote-name>16:00:00~16:59:59</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[16:00:00~16:59:59]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>16:00:00~16:59:59 승차</remote-alias>
+            <remote-alias>16:00:00~16:59:59</remote-alias>
             <ordinal>28</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>16:00:00~16:59:59 하차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[16:00:00~16:59:59 하차]</local-name>
+            <remote-name>F30</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F30]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>16:00:00~16:59:59 하차</remote-alias>
+            <remote-alias>F30</remote-alias>
             <ordinal>29</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>17:00:00~17:59:59 승차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[17:00:00~17:59:59 승차]</local-name>
+            <remote-name>17:00:00~17:59:59</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[17:00:00~17:59:59]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>17:00:00~17:59:59 승차</remote-alias>
+            <remote-alias>17:00:00~17:59:59</remote-alias>
             <ordinal>30</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>17:00:00~17:59:59 하차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[17:00:00~17:59:59 하차]</local-name>
+            <remote-name>F32</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F32]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>17:00:00~17:59:59 하차</remote-alias>
+            <remote-alias>F32</remote-alias>
             <ordinal>31</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>18:00:00~18:59:59 승차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[18:00:00~18:59:59 승차]</local-name>
+            <remote-name>18:00:00~18:59:59</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[18:00:00~18:59:59]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>18:00:00~18:59:59 승차</remote-alias>
+            <remote-alias>18:00:00~18:59:59</remote-alias>
             <ordinal>32</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>18:00:00~18:59:59 하차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[18:00:00~18:59:59 하차]</local-name>
+            <remote-name>F34</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F34]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>18:00:00~18:59:59 하차</remote-alias>
+            <remote-alias>F34</remote-alias>
             <ordinal>33</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>19:00:00~19:59:59 승차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[19:00:00~19:59:59 승차]</local-name>
+            <remote-name>19:00:00~19:59:59</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[19:00:00~19:59:59]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>19:00:00~19:59:59 승차</remote-alias>
+            <remote-alias>19:00:00~19:59:59</remote-alias>
             <ordinal>34</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>19:00:00~19:59:59 하차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[19:00:00~19:59:59 하차]</local-name>
+            <remote-name>F36</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F36]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>19:00:00~19:59:59 하차</remote-alias>
+            <remote-alias>F36</remote-alias>
             <ordinal>35</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>20:00:00~20:59:59 승차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[20:00:00~20:59:59 승차]</local-name>
+            <remote-name>20:00:00~20:59:59</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[20:00:00~20:59:59]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>20:00:00~20:59:59 승차</remote-alias>
+            <remote-alias>20:00:00~20:59:59</remote-alias>
             <ordinal>36</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>20:00:00~20:59:59 하차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[20:00:00~20:59:59 하차]</local-name>
+            <remote-name>F38</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F38]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>20:00:00~20:59:59 하차</remote-alias>
+            <remote-alias>F38</remote-alias>
             <ordinal>37</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>21:00:00~21:59:59 승차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[21:00:00~21:59:59 승차]</local-name>
+            <remote-name>21:00:00~21:59:59</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[21:00:00~21:59:59]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>21:00:00~21:59:59 승차</remote-alias>
+            <remote-alias>21:00:00~21:59:59</remote-alias>
             <ordinal>38</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>21:00:00~21:59:59 하차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[21:00:00~21:59:59 하차]</local-name>
+            <remote-name>F40</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F40]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>21:00:00~21:59:59 하차</remote-alias>
+            <remote-alias>F40</remote-alias>
             <ordinal>39</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>22:00:00~22:59:59 승차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[22:00:00~22:59:59 승차]</local-name>
+            <remote-name>22:00:00~22:59:59</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[22:00:00~22:59:59]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>22:00:00~22:59:59 승차</remote-alias>
+            <remote-alias>22:00:00~22:59:59</remote-alias>
             <ordinal>40</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>22:00:00~22:59:59 하차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[22:00:00~22:59:59 하차]</local-name>
+            <remote-name>F42</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F42]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>22:00:00~22:59:59 하차</remote-alias>
+            <remote-alias>F42</remote-alias>
             <ordinal>41</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>23:00:00~23:59:59 승차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[23:00:00~23:59:59 승차]</local-name>
+            <remote-name>23:00:00~23:59:59</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[23:00:00~23:59:59]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>23:00:00~23:59:59 승차</remote-alias>
+            <remote-alias>23:00:00~23:59:59</remote-alias>
             <ordinal>42</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>23:00:00~23:59:59 하차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[23:00:00~23:59:59 하차]</local-name>
+            <remote-name>F44</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F44]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>23:00:00~23:59:59 하차</remote-alias>
+            <remote-alias>F44</remote-alias>
             <ordinal>43</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>00:00:00~00:59:59 승차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[00:00:00~00:59:59 승차]</local-name>
+            <remote-name>00:00:00~00:59:59</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[00:00:00~00:59:59]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>00:00:00~00:59:59 승차</remote-alias>
+            <remote-alias>00:00:00~00:59:59</remote-alias>
             <ordinal>44</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>00:00:00~00:59:59 하차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[00:00:00~00:59:59 하차]</local-name>
+            <remote-name>F46</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F46]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>00:00:00~00:59:59 하차</remote-alias>
+            <remote-alias>F46</remote-alias>
             <ordinal>45</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>01:00:00~01:59:59 승차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[01:00:00~01:59:59 승차]</local-name>
+            <remote-name>01:00:00~01:59:59</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[01:00:00~01:59:59]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>01:00:00~01:59:59 승차</remote-alias>
+            <remote-alias>01:00:00~01:59:59</remote-alias>
             <ordinal>46</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>01:00:00~01:59:59 하차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[01:00:00~01:59:59 하차]</local-name>
+            <remote-name>F48</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F48]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>01:00:00~01:59:59 하차</remote-alias>
+            <remote-alias>F48</remote-alias>
             <ordinal>47</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>02:00:00~02:59:59 승차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[02:00:00~02:59:59 승차]</local-name>
+            <remote-name>02:00:00~02:59:59</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[02:00:00~02:59:59]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>02:00:00~02:59:59 승차</remote-alias>
+            <remote-alias>02:00:00~02:59:59</remote-alias>
             <ordinal>48</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>02:00:00~02:59:59 하차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[02:00:00~02:59:59 하차]</local-name>
+            <remote-name>F50</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F50]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>02:00:00~02:59:59 하차</remote-alias>
+            <remote-alias>F50</remote-alias>
             <ordinal>49</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>03:00:00~03:59:59 승차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[03:00:00~03:59:59 승차]</local-name>
+            <remote-name>03:00:00~03:59:59</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[03:00:00~03:59:59]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>03:00:00~03:59:59 승차</remote-alias>
+            <remote-alias>03:00:00~03:59:59</remote-alias>
             <ordinal>50</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>03:00:00~03:59:59 하차</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[03:00:00~03:59:59 하차]</local-name>
+            <remote-name>F52</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F52]</local-name>
             <parent-name>[지하철 시간대별 이용현황]</parent-name>
-            <remote-alias>03:00:00~03:59:59 하차</remote-alias>
+            <remote-alias>F52</remote-alias>
             <ordinal>51</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
@@ -3574,7 +3622,7 @@
       </connection>
       <aliases enabled='yes' />
       <_.fcp.ObjectModelTableType.true...column caption='지하철 시간대별 이용현황' datatype='table' name='[__tableau_internal_object_id__].[지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0]' role='measure' type='quantitative' />
-      <column datatype='integer' name='[역ID]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[역ID]' role='dimension' type='nominal' />
       <column datatype='string' hidden='true' name='[작업일시]' role='dimension' type='nominal' />
       <column caption='승하차 고객수' datatype='integer' name='[피벗 필드 값]' role='measure' type='quantitative' />
       <column caption='시간대' datatype='string' name='[피벗 필드명 - 분할 1]' role='dimension' type='nominal' user:SplitFieldIndex='1' user:SplitFieldOrigin='[federated.0801jbc0z3mf981adj2pn1cncgf3].[피벗 필드명]'>
@@ -3692,59 +3740,59 @@
           <object caption='지하철 시간대별 이용현황' id='지하철 시간대별 이용현황_5D3BBDCB5DCA4708A51E9DA51B607CA0'>
             <properties context=''>
               <relation connection='excel-direct.0g7g6ji0hzadin1eqfy6p00a5icm' name='지하철 시간대별 이용현황' table='[&apos;지하철 시간대별 이용현황$&apos;]' type='table'>
-                <columns gridOrigin='A1:BA623:no:A1:BA623:2' lost='0' outcome='1' processed='30429'>
+                <columns gridOrigin='A1:BA623:no:A1:BA623:0' header='yes' lost='0' outcome='2' processed='30429'>
                   <column datatype='string' name='사용월' ordinal='0' />
                   <column datatype='string' name='호선명' ordinal='1' />
-                  <column datatype='integer' name='역ID' ordinal='2' />
+                  <column datatype='string' name='역ID' ordinal='2' />
                   <column datatype='string' name='지하철역' ordinal='3' />
-                  <column datatype='integer' name='04:00:00~04:59:59 승차' ordinal='4' />
-                  <column datatype='integer' name='04:00:00~04:59:59 하차' ordinal='5' />
-                  <column datatype='integer' name='05:00:00~05:59:59 승차' ordinal='6' />
-                  <column datatype='integer' name='05:00:00~05:59:59 하차' ordinal='7' />
-                  <column datatype='integer' name='06:00:00~06:59:59 승차' ordinal='8' />
-                  <column datatype='integer' name='06:00:00~06:59:59 하차' ordinal='9' />
-                  <column datatype='integer' name='07:00:00~07:59:59 승차' ordinal='10' />
-                  <column datatype='integer' name='07:00:00~07:59:59 하차' ordinal='11' />
-                  <column datatype='integer' name='08:00:00~08:59:59 승차' ordinal='12' />
-                  <column datatype='integer' name='08:00:00~08:59:59 하차' ordinal='13' />
-                  <column datatype='integer' name='09:00:00~09:59:59 승차' ordinal='14' />
-                  <column datatype='integer' name='09:00:00~09:59:59 하차' ordinal='15' />
-                  <column datatype='integer' name='10:00:00~10:59:59 승차' ordinal='16' />
-                  <column datatype='integer' name='10:00:00~10:59:59 하차' ordinal='17' />
-                  <column datatype='integer' name='11:00:00~11:59:59 승차' ordinal='18' />
-                  <column datatype='integer' name='11:00:00~11:59:59 하차' ordinal='19' />
-                  <column datatype='integer' name='12:00:00~12:59:59 승차' ordinal='20' />
-                  <column datatype='integer' name='12:00:00~12:59:59 하차' ordinal='21' />
-                  <column datatype='integer' name='13:00:00~13:59:59 승차' ordinal='22' />
-                  <column datatype='integer' name='13:00:00~13:59:59 하차' ordinal='23' />
-                  <column datatype='integer' name='14:00:00~14:59:59 승차' ordinal='24' />
-                  <column datatype='integer' name='14:00:00~14:59:59 하차' ordinal='25' />
-                  <column datatype='integer' name='15:00:00~15:59:59 승차' ordinal='26' />
-                  <column datatype='integer' name='15:00:00~15:59:59 하차' ordinal='27' />
-                  <column datatype='integer' name='16:00:00~16:59:59 승차' ordinal='28' />
-                  <column datatype='integer' name='16:00:00~16:59:59 하차' ordinal='29' />
-                  <column datatype='integer' name='17:00:00~17:59:59 승차' ordinal='30' />
-                  <column datatype='integer' name='17:00:00~17:59:59 하차' ordinal='31' />
-                  <column datatype='integer' name='18:00:00~18:59:59 승차' ordinal='32' />
-                  <column datatype='integer' name='18:00:00~18:59:59 하차' ordinal='33' />
-                  <column datatype='integer' name='19:00:00~19:59:59 승차' ordinal='34' />
-                  <column datatype='integer' name='19:00:00~19:59:59 하차' ordinal='35' />
-                  <column datatype='integer' name='20:00:00~20:59:59 승차' ordinal='36' />
-                  <column datatype='integer' name='20:00:00~20:59:59 하차' ordinal='37' />
-                  <column datatype='integer' name='21:00:00~21:59:59 승차' ordinal='38' />
-                  <column datatype='integer' name='21:00:00~21:59:59 하차' ordinal='39' />
-                  <column datatype='integer' name='22:00:00~22:59:59 승차' ordinal='40' />
-                  <column datatype='integer' name='22:00:00~22:59:59 하차' ordinal='41' />
-                  <column datatype='integer' name='23:00:00~23:59:59 승차' ordinal='42' />
-                  <column datatype='integer' name='23:00:00~23:59:59 하차' ordinal='43' />
-                  <column datatype='integer' name='00:00:00~00:59:59 승차' ordinal='44' />
-                  <column datatype='integer' name='00:00:00~00:59:59 하차' ordinal='45' />
-                  <column datatype='integer' name='01:00:00~01:59:59 승차' ordinal='46' />
-                  <column datatype='integer' name='01:00:00~01:59:59 하차' ordinal='47' />
-                  <column datatype='integer' name='02:00:00~02:59:59 승차' ordinal='48' />
-                  <column datatype='integer' name='02:00:00~02:59:59 하차' ordinal='49' />
-                  <column datatype='integer' name='03:00:00~03:59:59 승차' ordinal='50' />
-                  <column datatype='integer' name='03:00:00~03:59:59 하차' ordinal='51' />
+                  <column datatype='string' name='04:00:00~04:59:59' ordinal='4' />
+                  <column datatype='string' name='F6' ordinal='5' />
+                  <column datatype='string' name='05:00:00~05:59:59' ordinal='6' />
+                  <column datatype='string' name='F8' ordinal='7' />
+                  <column datatype='string' name='06:00:00~06:59:59' ordinal='8' />
+                  <column datatype='string' name='F10' ordinal='9' />
+                  <column datatype='string' name='07:00:00~07:59:59' ordinal='10' />
+                  <column datatype='string' name='F12' ordinal='11' />
+                  <column datatype='string' name='08:00:00~08:59:59' ordinal='12' />
+                  <column datatype='string' name='F14' ordinal='13' />
+                  <column datatype='string' name='09:00:00~09:59:59' ordinal='14' />
+                  <column datatype='string' name='F16' ordinal='15' />
+                  <column datatype='string' name='10:00:00~10:59:59' ordinal='16' />
+                  <column datatype='string' name='F18' ordinal='17' />
+                  <column datatype='string' name='11:00:00~11:59:59' ordinal='18' />
+                  <column datatype='string' name='F20' ordinal='19' />
+                  <column datatype='string' name='12:00:00~12:59:59' ordinal='20' />
+                  <column datatype='string' name='F22' ordinal='21' />
+                  <column datatype='string' name='13:00:00~13:59:59' ordinal='22' />
+                  <column datatype='string' name='F24' ordinal='23' />
+                  <column datatype='string' name='14:00:00~14:59:59' ordinal='24' />
+                  <column datatype='string' name='F26' ordinal='25' />
+                  <column datatype='string' name='15:00:00~15:59:59' ordinal='26' />
+                  <column datatype='string' name='F28' ordinal='27' />
+                  <column datatype='string' name='16:00:00~16:59:59' ordinal='28' />
+                  <column datatype='string' name='F30' ordinal='29' />
+                  <column datatype='string' name='17:00:00~17:59:59' ordinal='30' />
+                  <column datatype='string' name='F32' ordinal='31' />
+                  <column datatype='string' name='18:00:00~18:59:59' ordinal='32' />
+                  <column datatype='string' name='F34' ordinal='33' />
+                  <column datatype='string' name='19:00:00~19:59:59' ordinal='34' />
+                  <column datatype='string' name='F36' ordinal='35' />
+                  <column datatype='string' name='20:00:00~20:59:59' ordinal='36' />
+                  <column datatype='string' name='F38' ordinal='37' />
+                  <column datatype='string' name='21:00:00~21:59:59' ordinal='38' />
+                  <column datatype='string' name='F40' ordinal='39' />
+                  <column datatype='string' name='22:00:00~22:59:59' ordinal='40' />
+                  <column datatype='string' name='F42' ordinal='41' />
+                  <column datatype='string' name='23:00:00~23:59:59' ordinal='42' />
+                  <column datatype='string' name='F44' ordinal='43' />
+                  <column datatype='string' name='00:00:00~00:59:59' ordinal='44' />
+                  <column datatype='string' name='F46' ordinal='45' />
+                  <column datatype='string' name='01:00:00~01:59:59' ordinal='46' />
+                  <column datatype='string' name='F48' ordinal='47' />
+                  <column datatype='string' name='02:00:00~02:59:59' ordinal='48' />
+                  <column datatype='string' name='F50' ordinal='49' />
+                  <column datatype='string' name='03:00:00~03:59:59' ordinal='50' />
+                  <column datatype='string' name='F52' ordinal='51' />
                   <column datatype='string' name='작업일시' ordinal='52' />
                 </columns>
               </relation>

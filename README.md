@@ -79,7 +79,7 @@
     - 지역화폐 데이터를 분석하고, 지역화폐를 활성시키기 위한 
 --------------
 ## 5.머신러닝 알고리즘 학습
-> sklearn으로 머신러닝의 주요 알고리즘 학습 및 Kaggle데이터로 실습 진행(https://github.com/chlwldns00/sklearn-)
+> sklearn으로 머신러닝의 주요 알고리즘 학습 및 Kaggle데이터로 실습 진행(https://github.com/chlwldns00/scikitlearn-)
 --------
 ## @.자격증
 - 토익스피킹 IH(2024년 1월 합격)

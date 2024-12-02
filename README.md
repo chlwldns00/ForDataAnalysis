@@ -73,10 +73,10 @@
   > 실무 문제상황 데이터분석 프로젝트 수료(수료증 링크 https://drive.google.com/file/d/1pT-QhDk535N29j10yS7d5qHavlPuxF8c/view?usp=drive_link)
       
   > 실제 사용되는 데이터를 가지고 데이터 EDA진행 및 분석보고서 작성    
-  - 복지패널 데이터 분석 프로젝트(https://github.com/chlwldns00/ForDataAnalysis/blob/main/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D/%EB%B3%B5%EC%A7%80%ED%8C%A8%EB%84%90%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D.ipynb)  
-    - 복지를 위한 시민정보 데이터를 분석하고, 연령대,성별,종교,이혼율 에 대한 EDA분석 진행  
-  - 지역화폐 데이터 분석 프로젝트(https://github.com/chlwldns00/project_weit)  
-    - 지역화폐 데이터를 분석하고, 지역화폐를 활성시키기 위한 솔루션 도출
+    - 복지패널 데이터 분석 프로젝트(https://github.com/chlwldns00/ForDataAnalysis/blob/main/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D/%EB%B3%B5%EC%A7%80%ED%8C%A8%EB%84%90%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D.ipynb)  
+      - 복지를 위한 시민정보 데이터를 분석하고, 연령대,성별,종교,이혼율 에 대한 EDA분석 진행  
+    - 지역화폐 데이터 분석 프로젝트(https://github.com/chlwldns00/project_weit)  
+      - 지역화폐 데이터를 분석하고, 지역화폐를 활성시키기 위한 솔루션 도출
 --------------
 ## 5.머신러닝 알고리즘 학습
 > sklearn으로 머신러닝의 주요 알고리즘 학습 및 Kaggle데이터로 실습 진행(https://github.com/chlwldns00/scikitlearn-)

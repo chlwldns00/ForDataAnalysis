@@ -8,9 +8,8 @@
 3. [파이썬 데이터 분석](#4파이썬-데이터-분석)
    - [Pandas, Numpy 활용 데이터 분석 프로젝트](#pandas-numpy-이용-데이터-분석-프로젝트weit-데이터스테이션)
 4. [머신러닝 알고리즘 학습](#5머신러닝-알고리즘-학습)
-5. [python 벡엔드, 서버기술 및 파이썬 어플리케이션 개발](#3python-벡엔드-서버기술-및-파이썬-어플리케이션-개발)
-   - [Flask](#flask)
-6. [자격증](#자격증)
+
+5. [자격증](#자격증)
 ---  
 ## 1.데이터 수집 - 데이터 크롤링, 전처리, 엑셀파일자동화  
 - How to 크롤링  
@@ -42,25 +41,25 @@
 - 실제DB로 SQL실무 실습  
 1.여러가지 조건문 수행    
 2.테이블 JOIN, INDEX 작업
-- *DB CRUD 프로젝트* 파이썬환경에서 mysql연동 사용      
+- *[파이썬환경에서 mysql연동 사용 실습](https://github.com/chlwldns00/ForDataAnalysis/blob/main/MySql/pymysql/pymysql%EC%8B%A4%EC%8A%B5%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8.ipynb)*       
 1.pymysql 라이브러리로 mysql DB table연동  
 2.bs4라이브러리로 웹페이지 크롤링  
-3.크롤링한 데이터로 table채우기 및 검색연산      
+3.[크롤링한 데이터로 table채우기 및 검색연산](https://github.com/chlwldns00/ForDataAnalysis/blob/main/MySql/sakilaDB/sakila-db%EC%8B%A4%EB%AC%B4%EC%8B%A4%EC%8A%B5/GMARKET_db%EC%97%90%EC%84%9C%20%EC%8B%A4%EB%AC%B4%EC%88%98%ED%96%89%EC%8B%A4%EC%8A%B5.sql)      
 ### NoSQL(MongoDB)  
 - MongoDB 데이터베이스 구조 이해  
   1.how to install  
   2.클라우드(aws,google,ncp등)에서 돌리는 방법(linux ubuntu사용)  
-- MongoDB CRUD 문법 [mflix 빅데이터베이스 이용]   
+- MongoDB CRUD 문법 [mflix 빅데이터베이스 이용](https://github.com/chlwldns00/ForDataAnalysis/tree/main/nosql/sampleDB/sample_mflix)   
   1.실제 mongoDB 생성후 실습
 - 파이프라인을 이용한 aggregation 문법이해  [mflix 빅데이터베이스 이용]   
   1.sharding이용    
   2.크게 match,group,count,sort,unwind,limit : {}안에서 세부조건 덧붙이기    
-  3.aggregation을 활용한 검색 실습(***)  
+  3.[aggregation을 활용한 검색 실습](https://github.com/chlwldns00/ForDataAnalysis/blob/main/nosql/Aggregation/mongoDB_Aggregation%EC%8B%A4%EB%AC%B4%EC%8B%A4%EC%8A%B5.js)  
 - pymongo라이브러리를 이용하여 파이썬환경에서 mongoDB연동해 사용하기  
   1.pymongo로 python <-> mongoDB 연동    
   2.pymongo 로 mongoDB CRUD 나타내기    
   3.pymongo 로 aggregation문법 사용하기  
-- *PYMONGO 활용 프로젝트*    
+- *[PYMONGO 활용 프로젝트](https://github.com/chlwldns00/ForDataAnalysis/blob/main/nosql/Pymongo/PYMONGO_%EC%8B%A4%EB%AC%B4%EC%8B%A4%EC%8A%B5.ipynb)*    
   1.pymongo 라이브러리로 mongoDB collection 연동    
   2.bs4라이브러리로 웹페이지 크롤링    
   3.크롤링한 데이터로 collection 채우기 및 검색연산  
@@ -82,25 +81,16 @@
    [🔝 목차로 돌아가기](#목차)
 ---------------
 ## 4.머신러닝 알고리즘 학습
-> sklearn으로 머신러닝의 주요 알고리즘 학습 및 Kaggle데이터로 [실습 진행](https://github.com/chlwldns00/scikitlearn-)
+> sklearn으로 머신러닝의 주요 알고리즘 학습
+   - [사이킷런 모듈학습](https://github.com/chlwldns00/ScikitLearn_Practice/tree/main/%EC%82%AC%EC%9D%B4%ED%82%B7%EB%9F%B0%20%EB%AA%A8%EB%93%88%20%ED%95%99%EC%8A%B5)
+   - [분류알고리즘](https://github.com/chlwldns00/ScikitLearn_Practice/tree/main/%EB%B6%84%EB%A5%98%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
+   - [회귀알고리즘](https://github.com/chlwldns00/ScikitLearn_Practice/tree/main/%ED%9A%8C%EA%B7%80%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
+   - [텍스트마이닝](https://github.com/chlwldns00/ScikitLearn_Practice/tree/main/%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EB%A7%88%EC%9D%B4%EB%8B%9D)
+> Kaggle데이터로 [실습 진행](https://github.com/chlwldns00/scikitlearn-)
  [🔝 목차로 돌아가기](#목차)
 --------------
-## 5.python 벡엔드, 서버기술 및 파이썬 어플리케이션 개발 
-### Flask  
-- Flask, 벡엔드 기본구조  
-   1.벡엔드 개발 기본구조 이해    
-   2.flask 프레임워크 기본구조 이해  
-   3.flask 문법이해(데코레이터,라우팅)  
-   4.RestAPI 간단 구현실습    
-- 정적웹페이지 프론트/벡엔드 실습    
-   1.정적html페이지 간단 로그인페이지 벡엔드 구현    
-   2.부트스트랩 사용한 정적html 로그인 페이지     
-   3.VUE JS를 사용하여 다양한 요소들로 html페이지를 꾸미고, REST API로 CRUD 간단구현    
-   4.로그 기록 및 에러 핸들러 사용으로 예외처리 및 보안강화 REST API구현
-- 실습프로젝트 *ABTest기능을 수행하는 정적웹블로그 프론트 벡엔드 구현하기*
 
-  [🔝 목차로 돌아가기](#목차)
---------
+
 ## 자격증
 - 토익스피킹 IH(2024년 1월 합격)
 - 데이터분석준전문가(2023년 1차시험 최종 합격)

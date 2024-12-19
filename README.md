@@ -5,11 +5,11 @@
 2. [데이터 저장(mysql, nosql)](#2데이터-저장mysql-nosql)
    - [MYSQL](#mysql)
    - [NoSQL(MongoDB)](#nosqlmongodb)
-3. [python 벡엔드, 서버기술 및 파이썬 어플리케이션 개발](#3python-벡엔드-서버기술-및-파이썬-어플리케이션-개발)
-   - [Flask](#flask)
-4. [파이썬 데이터 분석](#4파이썬-데이터-분석)
+3. [파이썬 데이터 분석](#4파이썬-데이터-분석)
    - [Pandas, Numpy 활용 데이터 분석 프로젝트](#pandas-numpy-이용-데이터-분석-프로젝트weit-데이터스테이션)
-5. [머신러닝 알고리즘 학습](#5머신러닝-알고리즘-학습)
+4. [머신러닝 알고리즘 학습](#5머신러닝-알고리즘-학습)
+5. [python 벡엔드, 서버기술 및 파이썬 어플리케이션 개발](#3python-벡엔드-서버기술-및-파이썬-어플리케이션-개발)
+   - [Flask](#flask)
 6. [자격증](#자격증)
 ---  
 ## 1.데이터 수집 - 데이터 크롤링, 전처리, 엑셀파일자동화  
@@ -64,7 +64,22 @@
   3.크롤링한 데이터로 collection 채우기 및 검색연산  
 
   ------------
-## 3.python 벡엔드, 서버기술 및 파이썬 어플리케이션 개발 
+## 3.파이썬 데이터 분석
+  ## pandas,numpy 이용 데이터 분석 프로젝트(WEIT 데이터스테이션)  
+  > 데이터 스테이션 수료([데이터 분석 팀프로젝트 공동 레포지토리](https://github.com/chlwldns00/weit) ) 
+  > 실무 문제상황 데이터분석 프로젝트 수료([수료증 링크](https://drive.google.com/file/d/1pT-QhDk535N29j10yS7d5qHavlPuxF8c/view?usp=drive_link))
+      
+  > 실제 사용되는 데이터를 가지고 데이터 EDA진행 및 분석보고서 작성    
+- [복지패널 데이터 분석 프로젝트](https://github.com/chlwldns00/ForDataAnalysis/blob/main/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D/%EB%B3%B5%EC%A7%80%ED%8C%A8%EB%84%90%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D.ipynb)  
+   - 복지를 위한 시민정보 데이터를 분석하고, 연령대,성별,종교,이혼율 에 대한 EDA분석 진행  
+- [지역화폐 데이터 분석 프로젝트](https://github.com/chlwldns00/project_weit)  
+   - 지역화폐 데이터를 분석하고, 지역화폐를 활성시키기 위한 솔루션 도출
+   
+---------------
+## 4.머신러닝 알고리즘 학습
+> sklearn으로 머신러닝의 주요 알고리즘 학습 및 Kaggle데이터로 [실습 진행](https://github.com/chlwldns00/scikitlearn-)
+--------------
+## 5.python 벡엔드, 서버기술 및 파이썬 어플리케이션 개발 
 ### Flask  
 - Flask, 벡엔드 기본구조  
    1.벡엔드 개발 기본구조 이해    
@@ -77,21 +92,6 @@
    3.VUE JS를 사용하여 다양한 요소들로 html페이지를 꾸미고, REST API로 CRUD 간단구현    
    4.로그 기록 및 에러 핸들러 사용으로 예외처리 및 보안강화 REST API구현
 - 실습프로젝트 *ABTest기능을 수행하는 정적웹블로그 프론트 벡엔드 구현하기*
-   
----------------
-## 4.파이썬 데이터 분석
-  ## pandas,numpy 이용 데이터 분석 프로젝트(WEIT 데이터스테이션)  
-  > 데이터 스테이션 수료([데이터 분석 팀프로젝트 공동 레포지토리](https://github.com/chlwldns00/weit) ) 
-  > 실무 문제상황 데이터분석 프로젝트 수료([수료증 링크](https://drive.google.com/file/d/1pT-QhDk535N29j10yS7d5qHavlPuxF8c/view?usp=drive_link))
-      
-  > 실제 사용되는 데이터를 가지고 데이터 EDA진행 및 분석보고서 작성    
-    - [복지패널 데이터 분석 프로젝트](https://github.com/chlwldns00/ForDataAnalysis/blob/main/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D/%EB%B3%B5%EC%A7%80%ED%8C%A8%EB%84%90%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D.ipynb)  
-      - 복지를 위한 시민정보 데이터를 분석하고, 연령대,성별,종교,이혼율 에 대한 EDA분석 진행  
-    - [지역화폐 데이터 분석 프로젝트](https://github.com/chlwldns00/project_weit)  
-      - 지역화폐 데이터를 분석하고, 지역화폐를 활성시키기 위한 솔루션 도출
---------------
-## 5.머신러닝 알고리즘 학습
-> sklearn으로 머신러닝의 주요 알고리즘 학습 및 Kaggle데이터로 [실습 진행](https://github.com/chlwldns00/scikitlearn-)
 --------
 ## 자격증
 - 토익스피킹 IH(2024년 1월 합격)
@@ -100,16 +100,3 @@
 - 정보처리기사(필기 2023년 3차 필기 합격)
 
 ---
-* [1.데이터 수집 - 데이터 크롤링 , 전처리, 엑셀파일자동화 (정적 웹 페이지 데이터(html,css), openAPI데이터(JSON,XML)) 활용](#1----------------------------------------------html-css---openapi----json-xml-----)
-  * [2.데이터 저장(mysql, nosql)](#2-------mysql--nosql-)
-    + [MYSQL](#mysql)
-    + [NoSQL(MongoDB)](#nosql-mongodb-)
-  * [3.python벡엔드,서버기술 및 파이썬 어플리케이션 개발](#3python------------------------)
-    + [Flask](#flask)
-  * [4.파이썬 데이터분석](#4---------)
-  * [pandas,numpy 이용 데이터 분석 프로젝트(WEIT 데이터스테이션)](#pandas-numpy----------------weit---------)
-  * [5.머신러닝 알고리즘 학습](#5------------)
-  * [@.자격증](#---)
-  * [On the right](#on-the-right)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>

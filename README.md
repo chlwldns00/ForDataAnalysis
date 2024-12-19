@@ -92,3 +92,17 @@
 - 빅데이터분석기사(2023년 2차시헙 필기합격)
 - 정보처리기사(필기 2023년 3차 필기 합격)
 
+---
+* [1.데이터 수집 - 데이터 크롤링 , 전처리, 엑셀파일자동화 (정적 웹 페이지 데이터(html,css), openAPI데이터(JSON,XML)) 활용](#1----------------------------------------------html-css---openapi----json-xml-----)
+  * [2.데이터 저장(mysql, nosql)](#2-------mysql--nosql-)
+    + [MYSQL](#mysql)
+    + [NoSQL(MongoDB)](#nosql-mongodb-)
+  * [3.python벡엔드,서버기술 및 파이썬 어플리케이션 개발](#3python------------------------)
+    + [Flask](#flask)
+  * [4.파이썬 데이터분석](#4---------)
+  * [pandas,numpy 이용 데이터 분석 프로젝트(WEIT 데이터스테이션)](#pandas-numpy----------------weit---------)
+  * [5.머신러닝 알고리즘 학습](#5------------)
+  * [@.자격증](#----)
+  * [On the right](#on-the-right)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>

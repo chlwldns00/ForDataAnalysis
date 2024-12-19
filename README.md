@@ -1,4 +1,9 @@
-# 데이터 분석가를 위한 역량 기르기     
+# 데이터 분석가를 위한 역량 기르기
+---
+## 목차
+[1. 크롤링](## 1.데이터 수집 - 데이터 크롤링 , 전처리, 엑셀파일자동화 (정적 웹 페이지 데이터(html,css), openAPI데이터(JSON,XML)) 활용)
+[2. 개발 기간](#2-개발-기간)
+[3. 팀원 소개](#3-팀원-소개)
 
 ## 1.데이터 수집 - 데이터 크롤링 , 전처리, 엑셀파일자동화 (정적 웹 페이지 데이터(html,css), openAPI데이터(JSON,XML)) 활용  
 - How to 크롤링  
@@ -12,7 +17,7 @@
 - openAPI의 데이터를 활용한 크롤링    
 1.openAPI 사용 셋팅 코드 + JSON데이터 활용 크롤링(네이버 openAPI활용 데이터 사용)  
 2.XML데이터 활용 크롤링(정부 공공데이터 openAPI 활용 데이터 사용)
-- *크롤링+엑셀자동화 프로젝트*    
+- *[크롤링+엑셀자동화 프로젝트](https://github.com/chlwldns00/ForDataAnalysis/blob/main/%EC%9B%B9%ED%81%AC%EB%A1%A4%EB%A7%81%2B%EB%AC%B8%EC%84%9C%EC%9E%90%EB%8F%99%ED%99%94(%EC%97%91%EC%85%80)/%EC%8B%A4%EC%8A%B5/%EC%B5%9C%EC%A2%85_%EC%98%88%EC%A0%9C%EC%82%AC%EC%9D%B4%ED%8A%B8_%ED%81%AC%EB%A1%A4%EB%A7%81%2B%EC%A0%84%EC%B2%98%EB%A6%AC%2B%EC%97%91%EC%85%80%EC%A0%80%EC%9E%A51.ipynb)*    
 1.웹사이트 크롤링    
 2.크롤링데이터 엑셀파일화    
 --------
@@ -69,17 +74,17 @@
 ---------------
 ## 4.파이썬 데이터분석
   ## pandas,numpy 이용 데이터 분석 프로젝트(WEIT 데이터스테이션)  
-  > 데이터 스테이션 수료(데이터 분석 팀프로젝트 공동 레포지토리 https://github.com/chlwldns00/weit)  
-  > 실무 문제상황 데이터분석 프로젝트 수료(수료증 링크 https://drive.google.com/file/d/1pT-QhDk535N29j10yS7d5qHavlPuxF8c/view?usp=drive_link)
+  > 데이터 스테이션 수료([데이터 분석 팀프로젝트 공동 레포지토리](https://github.com/chlwldns00/weit) ) 
+  > 실무 문제상황 데이터분석 프로젝트 수료([수료증 링크](https://drive.google.com/file/d/1pT-QhDk535N29j10yS7d5qHavlPuxF8c/view?usp=drive_link))
       
   > 실제 사용되는 데이터를 가지고 데이터 EDA진행 및 분석보고서 작성    
-    - 복지패널 데이터 분석 프로젝트(https://github.com/chlwldns00/ForDataAnalysis/blob/main/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D/%EB%B3%B5%EC%A7%80%ED%8C%A8%EB%84%90%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D.ipynb)  
+    - [복지패널 데이터 분석 프로젝트](https://github.com/chlwldns00/ForDataAnalysis/blob/main/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D/%EB%B3%B5%EC%A7%80%ED%8C%A8%EB%84%90%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D.ipynb)  
       - 복지를 위한 시민정보 데이터를 분석하고, 연령대,성별,종교,이혼율 에 대한 EDA분석 진행  
-    - 지역화폐 데이터 분석 프로젝트(https://github.com/chlwldns00/project_weit)  
+    - [지역화폐 데이터 분석 프로젝트](https://github.com/chlwldns00/project_weit)  
       - 지역화폐 데이터를 분석하고, 지역화폐를 활성시키기 위한 솔루션 도출
 --------------
 ## 5.머신러닝 알고리즘 학습
-> sklearn으로 머신러닝의 주요 알고리즘 학습 및 Kaggle데이터로 실습 진행(https://github.com/chlwldns00/scikitlearn-)
+> sklearn으로 머신러닝의 주요 알고리즘 학습 및 Kaggle데이터로 [실습 진행](https://github.com/chlwldns00/scikitlearn-)
 --------
 ## @.자격증
 - 토익스피킹 IH(2024년 1월 합격)

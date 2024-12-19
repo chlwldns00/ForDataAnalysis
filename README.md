@@ -102,7 +102,7 @@
   * [4.파이썬 데이터분석](#4---------)
   * [pandas,numpy 이용 데이터 분석 프로젝트(WEIT 데이터스테이션)](#pandas-numpy----------------weit---------)
   * [5.머신러닝 알고리즘 학습](#5------------)
-  * [@.자격증](#----)
+  * [@.자격증](#---)
   * [On the right](#on-the-right)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
